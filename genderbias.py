@@ -40,7 +40,7 @@ import os
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # Hugging Face API token and model
-hf_token = "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"
+hf_token = "your_api_key_here"
 model_id = "meta-llama/Llama-2-7b-hf"
 
 # Load tokenizer and model
@@ -349,7 +349,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # Hugging Face model details and token
-hf_token = "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"
+hf_token = "your_api_key_here"
 model_id = "meta-llama/Llama-2-7b-hf"
 
 # Load the Hugging Face model and tokenizer
@@ -454,7 +454,7 @@ import torch  # Imports the torch module
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # Hugging Face API token and model details
-hf_token = "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"
+hf_token = "your_api_key_here"
 model_id = "meta-llama/Llama-2-7b-hf"
 
 # Load model and tokenizer
@@ -477,7 +477,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # Hugging Face token and model ID
-hf_token = "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"  # Replace with your actual token
+hf_token = "your_api_key_here"  # Replace with your actual token
 model_id = "meta-llama/Llama-2-7b-hf"
 
 # Load model and tokenizer with token for gated access
@@ -753,7 +753,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 #  model details
-hf_token = "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"
+hf_token = "your_api_key_here"
 model_id = "meta-llama/Llama-2-7b-hf"
 
 # Loading model and tokenizer
@@ -908,7 +908,7 @@ import torch
 torch.cuda.empty_cache()  # Free unused memory
 
 #  Hugging Face API token and model details
-hf_token = "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"
+hf_token = "your_api_key_here"
 model_id = "meta-llama/Llama-2-7b-hf"
 
 #  Load model and tokenizer with Hugging Face token
@@ -1043,7 +1043,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # Hugging Face model details and token
-hf_token = "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"
+hf_token = "your_api_key_here"
 model_id = "meta-llama/Llama-2-7b-hf"
 
 # Load the Hugging Face model and tokenizer
@@ -1187,7 +1187,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # 🔹 Hugging Face API details
-hf_token = "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"
+hf_token = "your_api_key_here"
 model_id = "meta-llama/Llama-2-7b-hf"
 
 # 🔹 Load the model and tokenizer
@@ -1361,7 +1361,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # 🔹 Hugging Face Model & Token
-hf_token = "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"
+hf_token = "your_api_key_here
 model_id = "meta-llama/Llama-2-7b-hf"
 
 # 🔹 Load Model and Tokenizer
@@ -2289,7 +2289,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # Hugging Face token and model ID
-hf_token = "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"
+hf_token = "your_api_key_here"
 model_id = "meta-llama/Llama-3.2-1B-Instruct"
 
 # Load tokenizer and model
@@ -2386,7 +2386,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # Hugging Face token and model
-hf_token = "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"
+hf_token = "your_api_token_here"
 model_id = "meta-llama/Llama-3.2-1B-Instruct"
 
 # Load tokenizer and model
@@ -2506,7 +2506,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # Hugging Face token and model
-hf_token = "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"
+hf_token = "your_api_token_here"
 model_id = "meta-llama/Llama-3.2-1B-Instruct"
 
 # Load tokenizer and model
@@ -2606,7 +2606,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # Hugging Face token and model
-hf_token = "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"
+hf_token = "your_api_token_here"
 model_id = "meta-llama/Llama-3.2-1B-Instruct"
 # Load tokenizer and model
 tokenizer = AutoTokenizer.from_pretrained(model_id, token=hf_token)
@@ -2718,7 +2718,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # Load model and tokenizer
-hf_token = "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"
+hf_token = "your_api_token_here"
 model_id = "meta-llama/Llama-3.2-1B-Instruct"
 
 tokenizer = AutoTokenizer.from_pretrained(model_id, token=hf_token)
@@ -2813,7 +2813,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # Model info
-hf_token = "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"
+hf_token = "your_api_token_here"
 model_id = "meta-llama/Llama-3.2-1B-Instruct"
 
 # Load tokenizer and model
@@ -2920,7 +2920,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # Model config
-hf_token = "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"
+hf_token = "your_api_token_here"
 model_id = "meta-llama/Llama-3.2-1B-Instruct"
 
 # Load model & tokenizer
@@ -3016,7 +3016,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # Setup
-hf_token = "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"
+hf_token = "your_api_token_here"
 model_id = "meta-llama/Llama-3.2-1B-Instruct"
 
 tokenizer = AutoTokenizer.from_pretrained(model_id, token=hf_token)
